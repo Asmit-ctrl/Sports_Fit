@@ -15,15 +15,15 @@ a {
 }
 
 form {
-  background: #010101;
-  backdrop-filter: blur ;
-  color: #d9d9d9;
+  background: transparent;
+  backdrop-filter: blur(20px);
+  color: #c5c6a1;
   padding: 1rem 0.5rem 2rem 0.5rem;
   text-align: center;
-  margin: 2rem;
-  border-radius: 32px;
+  margin: 5rem;
+  border-radius:10px;
   width: 35%;
-  box-shadow: 0 0 3px #000000;
+  box-shadow: 0 0 30px #000000;
 }
 
 input {
@@ -56,12 +56,12 @@ label {
 }
 
 .btn-blue {
-  background: #177ddc;
+  background: #8d17dc;
 }
 
 .btn-blue:hover {
   background: #191a1d;
-  border: 1px solid #177ddc;
+  border: 1px solid #8d17dc;
 }
 
 .btn-dark {
@@ -77,8 +77,12 @@ label {
 .page {
   padding: 4rem 15% 4rem 15%;
   text-align: center;
+  
 }
-
+.page1 {
+  padding: 0rem 0% 0rem 0%;
+  text-align: center;
+}
 .page-dark {
   background: #191a1d;
   color: #ffffff;
@@ -99,13 +103,18 @@ label {
   text-align: center;
 }
 .page-transparent{
-  color:#000000;
+  color:#efe5d6;
   text-align: center;
+  text-shadow: 0 0 7px #000000;
 }
 .atransparent{
-  background: url(pic/img3.jpg);
-  height: 20rem ;
-  width: 40 rem ;
+  margin: 0;
+  padding: 6rem;
+  background: url(pic/img3.jpg) no-repeat;
+  height: 40rem;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
 }
 
 .list-box {
@@ -137,8 +146,8 @@ label {
 #calorie-result {
   padding: 0.5rem;
   font-weight: normal;
-  background: #177ddc;
-  box-shadow: 0 0 4px #000000;
+  background: #ff8011;
+  box-shadow: 0 0 10px #000000;
   border-radius: 12px;
   color: #ffffff;
 }
@@ -171,7 +180,7 @@ label {
 /*nav logo*/
 .nav_pic{
   height: 10rem;
-  width: 15rem;
+  width: 10rem;
 }
 #navbar a h2 {
   color: #6f2dac;
@@ -213,7 +222,7 @@ label {
 /* About section part ke liye  */
 
 #about{
-  background-image: url("../img/bg.jpg");
+  background-image: url("bg.jpg");
   background-size: cover;
   background-position: center top;
   padding-top: 6.4rem;
@@ -304,7 +313,7 @@ label {
   padding-right: 1.5rem;
   background-size: cover;
   background-position: center;
-  box-shadow: 0 0 6px #ed0909;
+  box-shadow: 0 0 10px #ed09bc;
  
 }
  
@@ -323,27 +332,28 @@ label {
 .slide table,/* box k border line */
 th,
 td {
-  border: 3px solid #177ddc;
+  border: 3px solid #3e0d5e;
+  border-radius: 2rem;
 }
 
 #gaining-muscle {
-  background-image: url("../img/gainingmuscle.jpg");
+  background-image: url("gainingmuscle.jpg");
 }
 
 #losing-weight {
-  background-image: url("../img/carddio.jpg");
+  background-image: url("carddio.jpg");
 }
 
 #building-strength{
-  background-image: url("../img/powerlifting\ 1.jpg");
+  background-image: url("powerlifting\ 1.jpg");
 }
 
 #building-stamina{
-  background-image: url("../img/stamina\ 1.\ jpg.jpg");
+  background-image: url("stamina\ 1.\ jpg.jpg");
 } 
 
 #street-workout{
-  background-image: url("../img/calisthenics\ 1.jpg");
+  background-image: url("calisthenics\ 1.jpg");
 }
 
 /* Exercise Guide selection ka part */
@@ -366,7 +376,7 @@ td {
 
 #faq .list-box ul li {
   /* yeh fAq ke answer ke liye css*/
-  color: #ea7070;
+  color: #f4eaea;
   margin: 1rem 0 1rem 1rem;
 }
 
@@ -391,10 +401,10 @@ td {
 }
 
 #contact a {
-  color: #df7e7e;
+  color: #a07edf;
 }
 
 #contact a:hover {
-  color: #ff000068;
+  color: #b300ff68;
   text-decoration: underline;
 }
