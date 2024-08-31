@@ -107,10 +107,19 @@ label {
   text-align: center;
   text-shadow: 0 0 7px #000000;
 }
-.atransparent{
+.btransparent{
   margin: 0;
   padding: 6rem;
   background: url(pic/img3.jpg) no-repeat;
+  height: 40rem;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+}
+.stransparent{
+  margin: 0;
+  padding: 6rem;
+  background: url(pic/img4.png) no-repeat;
   height: 40rem;
   background-size: cover;
   align-items: center;
