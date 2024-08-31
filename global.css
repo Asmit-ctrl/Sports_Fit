@@ -7,7 +7,7 @@
 }
 
 html {
-  font-family: "Oswald", sans-serif;
+  font-family: 'Poppins',sans-serif;
 }
 
 a {
@@ -167,7 +167,7 @@ label {
   justify-content: space-around;
   align-items: center;
   box-shadow: 0 0 4px;
-  font-family: Manrope;
+  font-family: 'Poppins',sans-serif;
 }
 .navlogo{
   height: 10rem ;
@@ -266,7 +266,18 @@ label {
 #about .btn{
   box-shadow: 0 0 8px #000000;
 }
-
+/* sports ka box*/
+.sports{
+  background: transparent;
+  backdrop-filter: blur(20px);
+  color: #e4e5d1;
+  padding: 1rem 0.5rem 2rem 0.5rem;
+  text-align: center;
+  margin: 5rem;
+  border-radius:10px;
+  width: 35%;
+  box-shadow: 0 0 30px #000000;
+}
 /* BMI Calculator ke liye text part */
 
 #bmi-calculator ul {
