@@ -110,7 +110,7 @@ label {
 .btransparent{
   margin: 0;
   padding: 6rem;
-  background: url(pic/img3.jpg) no-repeat;
+  background: url(pic/image8.jpg) no-repeat;
   height: 40rem;
   background-size: cover;
   align-items: center;
@@ -119,7 +119,7 @@ label {
 .stransparent{
   margin: 0;
   padding: 6rem;
-  background: url(pic/img4.png) no-repeat;
+  background: url(pic/image10.jpg) no-repeat;
   height: 40rem;
   background-size: cover;
   align-items: center;
@@ -155,12 +155,15 @@ label {
 #calorie-result {
   padding: 0.5rem;
   font-weight: normal;
-  background: #ff8011;
+  background: #ac11ff;
   box-shadow: 0 0 10px #000000;
   border-radius: 12px;
   color: #ffffff;
 }
-
+.tansparent1{
+  background-color: transparent;
+  backdrop-filter: blur(20px);
+}
 /* STYLES */
 
 /* Navbar */
@@ -231,7 +234,7 @@ label {
 /* About section part ke liye  */
 
 #about{
-  background-image: url("bg.jpg");
+  background-image: url("pic/img5.jpg");
   background-size: cover;
   background-position: center top;
   padding-top: 6.4rem;
@@ -278,14 +281,13 @@ label {
 /* sports ka box*/
 .sports{
   background: transparent;
-  backdrop-filter: blur(20px);
   color: #e4e5d1;
   padding: 1rem 0.5rem 2rem 0.5rem;
   text-align: center;
   margin: 5rem;
   border-radius:10px;
   width: 35%;
-  box-shadow: 0 0 30px #000000;
+  /*box-shadow: 0 0 30px #000000;*/
 }
 /* BMI Calculator ke liye text part */
 
